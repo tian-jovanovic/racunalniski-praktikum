@@ -1,9 +1,9 @@
 <!-- glavni naslov -->
 # Računalniški praktikum
 
-Ctrl+Home (Skok na začetek dokumenta)
-Ctrl+L (Fokus na naslovno vrstico)
-Ctrl+Z (Razveljavi (undo))
++ Ctrl+Home (Skok na začetek dokumenta)
++ Ctrl+L (Fokus na naslovno vrstico)
++ Ctrl+Z (Razveljavi (undo))
 
 <!-- To je komentar, ki bo na prikazanem Markdown-u skrit. 
      V tem besedilu so v komentarjih napisana navodila za reševanje. -->
