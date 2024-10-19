@@ -1,4 +1,3 @@
-<!-- glavni naslov -->
 # Računalniški praktikum
 
 + Ctrl+Home (Skok na začetek dokumenta)
