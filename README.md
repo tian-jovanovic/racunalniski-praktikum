@@ -1,15 +1,14 @@
 # Računalniški praktikum
 
-+ Ctrl+Home (Skok na začetek dokumenta)
-+ Ctrl+L (Fokus na naslovno vrstico)
-+ Ctrl+Z (Razveljavi (undo))
-
 <!-- To je komentar, ki bo na prikazanem Markdown-u skrit. 
      V tem besedilu so v komentarjih napisana navodila za reševanje. -->
 
 <!-- 2. nivojski razdelek -->
 ## Bližnjice na tipkovnici
 
++ Ctrl+Home (Skok na začetek dokumenta)
++ Ctrl+L (Fokus na naslovno vrstico)
++ Ctrl+Z (Razveljavi (undo))
 + *Kopiraj* označeno v odložišče: Ctrl+C (**C**opy)
 + *Izreži* označeno v odložišče: Ctrl+X
 + *Prilepi* vsebino odložišča: Ctrl+V
