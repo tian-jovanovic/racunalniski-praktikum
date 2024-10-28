@@ -19,13 +19,48 @@ body {
     text-align: justify;
 }
 
-h1 {color: #330066 ;
-
+h1 {
+    color: #330066 ;
 }
+
 h2 {
     margin-top: 2em;
     border: 1px #AAAAAA solid;
     padding: 0.5em;
+}
+
+#Uvod{
+    padding: 2em;
+    background-color: rgb(51, 0, 102, 0.1);
+}
+
+.slika{
+    text-align: left;
+    font-size: 0.9em 40%;
+    float: right;
+}
+
+.slika img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.slika p:last-child{
+    font-size: 0.8em;
+}
+
+a::before {
+    content: '🔗';
+}
+
+.slika:nth-child(-n + 3) {
+    border: 2px solid red;
+    margin-bottom: 1px;
+}
+
+.slika:nth-child(even) {
+    background-color: rgb(51, 0, 102, 0.1);
 }
 
 /*  Odstranimo podčrtovanje povezav in outline (ta se včasih pokaže kot kvadratek okrog povezave)  */
