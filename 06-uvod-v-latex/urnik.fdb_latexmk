@@ -1,11 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1730471952.24012 "c:/Users/tianj/Documents/FMF/rp/racunalniski-praktikum/06-uvod-v-latex/urnik.tex" "urnik.pdf" "urnik" 1730471953.0758 0
+["pdflatex"] 1730472119.91056 "c:/Users/tianj/Documents/FMF/rp/racunalniski-praktikum/06-uvod-v-latex/urnik.tex" "urnik.pdf" "urnik" 1730472120.7138 0
   "C:/Users/tianj/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1730298608 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/tianj/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1730296372 24225047 71202a3a55d94b8f4c9443ce51e389d4 ""
   "C:/Users/tianj/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
-  "C:/Users/tianj/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc" 1256929440 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "C:/Users/tianj/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc" 1256929440 2840 216e6e45ad352e2456e1149f28885bee ""
-  "C:/Users/tianj/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc" 1256929440 2327 9d6df24f9c4f7368395224341a95523a ""
   "C:/Users/tianj/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc" 1256929440 3031 6c4d3515bf7115d8518af1c9ab97ca44 ""
   "C:/Users/tianj/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1000.tfm" 993062122 3148 7e594c8240c71e432203f65ab5f95a51 ""
   "C:/Users/tianj/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ec-lmbx10.tfm" 1256929440 12076 b54175e02101bea1addf6b2d0197ed12 ""
@@ -39,7 +37,6 @@
   "C:/Users/tianj/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb" 1256929440 121021 836464b5fe0c782d94085eb083550ccc ""
   "C:/Users/tianj/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb" 1256929440 116908 9a7a12d1e4df280ea0ab4aad83cdef88 ""
   "C:/Users/tianj/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx9.pfb" 1256929440 126646 56e3d11e90816073e07cc59bd07ef384 ""
-  "C:/Users/tianj/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb" 1256929440 30388 702fae6a5f0e6e9c48a1d872b442ffcf ""
   "C:/Users/tianj/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb" 1256929440 119235 05e5c8d6d60439433e50047898c2c0e0 ""
   "C:/Users/tianj/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb" 1256929440 113634 9384aebdf26f9881e046a4b5574566db ""
   "C:/Users/tianj/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb" 1256929440 119752 1bd8d06e4079df624bf59ce3ad7c9aa6 ""
@@ -96,10 +93,10 @@
   "C:/Users/tianj/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/tianj/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/tianj/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/tianj/Documents/FMF/rp/racunalniski-praktikum/06-uvod-v-latex/urnik.tex" 1730471951 29786 54d94be2d1698129ab542f8bfa60d4cb ""
-  "urnik.aux" 1730471952 1898 bc9932fc95669d58516eb5f4336e75a6 "pdflatex"
-  "urnik.out" 1730471952 1917 4b448c14842e78aea7e8f74d62630451 "pdflatex"
-  "urnik.tex" 1730471951 29786 54d94be2d1698129ab542f8bfa60d4cb ""
+  "c:/Users/tianj/Documents/FMF/rp/racunalniski-praktikum/06-uvod-v-latex/urnik.tex" 1730472119 29784 b697a18d79eb856b93b3ed8dc783b3a1 ""
+  "urnik.aux" 1730472120 1898 bc9932fc95669d58516eb5f4336e75a6 "pdflatex"
+  "urnik.out" 1730472120 1917 4b448c14842e78aea7e8f74d62630451 "pdflatex"
+  "urnik.tex" 1730472119 29784 b697a18d79eb856b93b3ed8dc783b3a1 ""
   (generated)
   "urnik.aux"
   "urnik.log"
