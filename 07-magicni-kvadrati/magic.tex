@@ -22,7 +22,18 @@
 \newtheorem{vaja}[izrek]{Vaja}
 }
 
-\newenvironment{Dokaz}{\begin{proof[Dokaz izreka]}}{\end{proof}}
+\newenvironment{Magic}{
+   \begin{table}
+      \centering
+      \label{#2}
+      \caption{#3}
+      \large
+      \begin{tabular}{|*{#1}}{c|}\hline
+}
+{
+      \end{tabular}
+   \end{table}
+}
 
 % Nastavimo koliko prostora izpustimo pod napisom nad sliko ali tabelo.
 \setlength{\belowcaptionskip}{2mm}
@@ -129,9 +140,15 @@ reke.
 % - napis nad tabelo: Kvadrat Lo Shu
 % - oznaka: table:loshu
 % Začetek magičnega kvadrata
-%   4 & 9 & 2 \\\hline
-%   3 & 5 & 7 \\\hline
-%   8 & 1 & 6 \\\hline
+   
+   \begin{tabular}{|c|c|c}\toprule
+      4 & 9 & 2 \\\hline
+      \midrule
+      3 & 5 & 7 \\\hline
+      \midrule
+      8 & 1 & 6 \\\hline
+      \bottomrule
+   \end{tabular}
 % Konec magičnega kvadrata
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -334,13 +351,12 @@ magični kvadrati redov 5, 6 in 9.
    \centering
    \caption{Magični kvadrat reda 5}
    \label{table:mag5}
-   \begin{tabular}{|l|l|l|l|l|}
-   \hline
-      17 & 24 &  1 &  8 & 15 \\ \hline
-      23 &  5 &  7 & 14 & 16 \\ \hline
-      4 &  6 & 13 & 20 & 22  \\ \hline
-      10 & 12 & 19 & 21 &  3 \\ \hline
-      11 & 18 & 25 &  2 &  9 \\ \hline
+   \begin{tabular}{|c|c|c|c|c|}\hline
+      17 & 24 &  1 &  8 & 15 \\\hline
+      23 &  5 &  7 & 14 & 16 \\\hline
+      4 &  6 & 13 & 20 & 22  \\\hline
+      10 & 12 & 19 & 21 &  3 \\\hline
+      11 & 18 & 25 &  2 &  9 \\\hline
    \end{tabular}
 \end{table}
 
