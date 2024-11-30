@@ -61,17 +61,20 @@
 %	  \pause
 %	  % Točka A
 %	  \coordinate [label=below left:{\scriptsize $A$}] (A) at ({-\t},0);
-%	  \draw (A) circle (1.5pt);  
-%	  % Naloga 3.4.1.: Narišite še točko B (skupaj z oznako)  
-%	  % Naloga 3.4.2.: Definirajte točko T', v kateri se začne lok m in narišite lok m z oznako.
-%	  % Lok je definiran s točko, v kateri se lok začne (ne središče!), z začetnim in končnim kotom ter radijem.
-%	  % Koti so vedno podani enako: kot 0 je v smeri x osi in se veča v nasprotni smeri urinega kazalca.
-%	  % Naloga 3.4.3.: Definirajte točko T'' in narišite lok n z oznako.  
-%	  % Naloga 3.4.4.: Definirajte in narišite točko C.
-%	  % Naloga 3.4.5.: Narišite premico skozi točki T in C.
+%	  \draw (A) circle (1.5pt);
+%	  \pause
+%	  \coordinate [label=below right:{\scriptsize $B$}] (B) at ({\t},0);
+%	  \draw (B) circle (1.5pt);
+%	  \coordinate (T') at ({-\td},{\tt});
+%	  \draw[gray, thin] (T') arc[start angle=210, end angle=330, radius=2] node[down] {\scriptsize $m$};  
+%	  \coordinate (T'') at ({\td},{\tt});
+%	  \draw[gray, thin] (T'') arc[start angle=210, end angle=330, radius=2] node[down] {\scriptsize $n$};
+%	  \coordinate [label=below right:{\scriptsize $C$}] (C) at (0,{-\t});
+%	  \draw (C) circle (2pt);
+%	  \draw[red, very thick] (0, -2) -- (0,2) node[up] {};
 %	\end{columns}
 %\end{frame}
-% Naloga 4
+
 \begin{frame}{Graf funkcije s TikZ}
 	\centering
 	\begin{tikzpicture}
