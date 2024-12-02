@@ -22,58 +22,70 @@
 	\end{columns}
 \end{frame}
 
-%\begin{frame}{Konstrukcija pravokotnice na premico $p$ skozi točko $T$}  
-%	\begin{columns}
-%	\column{0.55\textwidth}
-%	\begin{itemize}
-%		 \item <1->Dani sta premica $p$ in točka $T$.
-%		 \item <2->Nariši lok $k$ s središčem v $T$.
-%		 \item <3->Premico $p$ seče v točkah $A$ in $B$.
-%		 \item <4->Nariši lok $m$ s središčem v $A$.
-%		 \item <5->Nariši lok $n$ s središčem v $B$ in z enakim polmerom.
-%		 \item <6->Loka se sečeta v točki $C$.
-%		 \item <7>Premica skozi točki $T$ in $C$ je pravokotna na $p$.
-%	  \end{itemize}
-%	  \column{0.45\textwidth}
-%	  \centering
-%	   Sliko smo naredili tako, da so točke A, B, T in C vse enako oddaljene
-%	   od presečišča premic; kot ATC je 45°.
-%	   Vsi krožni loki imajo radij 2.
-%	  \tikzmath{
-%	  	% Razdalja od točke T do premice p je tako 2*sin(45°).
-%	  	\t = 2*sin(45);
-%	  	% Razdalja začetka loka m do premice p
-%	  	% oz. razdalja točke T' levo in zgoraj od točke T do premice
-%	  	\tt = 2*sin(60);
-%	  	% Razdalja točke T' od navpične premice skozi T
-%	  	\td = \t-2*cos(60);
-%	  }
-%	  % Definicija točke T
-%	  \coordinate [label={[blue, above left]:$T$}] (T) at (0,{\t});
-%	  % Risanje točke T
-%	  \fill[blue] (T) circle (2pt);
-%	  % Premica p
-%	  \draw[blue, very thick] (-2,0) -- (2,0) node[right] {$p$};
-%	  \pause
-%	  % Definicija pomožne točke A' in risanje krožnega loka k, ki se začne v A'
-%	  \coordinate (A') at ({-\tt},{\td});
-%	  \draw[gray, thin] (A') arc[start angle=210, end angle=330, radius=2] node[right] {\scriptsize $k$};
-%	  \pause
-%	  % Točka A
-%	  \coordinate [label=below left:{\scriptsize $A$}] (A) at ({-\t},0);
-%	  \draw (A) circle (1.5pt);
-%	  \pause
-%	  \coordinate [label=below right:{\scriptsize $B$}] (B) at ({\t},0);
-%	  \draw (B) circle (1.5pt);
-%	  \coordinate (T') at ({-\td},{\tt});
-%	  \draw[gray, thin] (T') arc[start angle=210, end angle=330, radius=2] node[down] {\scriptsize $m$};  
-%	  \coordinate (T'') at ({\td},{\tt});
-%	  \draw[gray, thin] (T'') arc[start angle=210, end angle=330, radius=2] node[down] {\scriptsize $n$};
-%	  \coordinate [label=below right:{\scriptsize $C$}] (C) at (0,{-\t});
-%	  \draw (C) circle (2pt);
-%	  \draw[red, very thick] (0, -2) -- (0,2) node[up] {};
-%	\end{columns}
-%\end{frame}
+\begin{frame}{Konstrukcija pravokotnice na premico $p$ skozi točko $T$}  
+	\begin{columns}
+	\column{0.55\textwidth}
+	\begin{itemize}
+		 \item <1->Dani sta premica $p$ in točka $T$.
+		 \item <2->Nariši lok $k$ s središčem v $T$.
+		 \item <3->Premico $p$ seče v točkah $A$ in $B$.
+		 \item <4->Nariši lok $m$ s središčem v $A$.
+		 \item <5->Nariši lok $n$ s središčem v $B$ in z enakim polmerom.
+		 \item <6->Loka se sečeta v točki $C$.
+		 \item <7>Premica skozi točki $T$ in $C$ je pravokotna na $p$.
+	  \end{itemize}
+	  \column{0.45\textwidth}
+	  \centering
+	   Sliko smo naredili tako, da so točke A, B, T in C vse enako oddaljene
+	   od presečišča premic; kot ATC je 45°.
+	   Vsi krožni loki imajo radij 2.
+	  
+	    % Sliko smo naredili tako, da so točke A, B, T in C vse enako oddaljene
+		% od presečišča premic; kot ATC je 45°.
+		% Vsi krožni loki imajo radij 2.
+		
+		\begin{tikzpicture}
+			\tikzmath{
+				% Razdalja od točke T do premice p je tako 2*sin(45°).
+				\t = 2*sin(45);
+				% Razdalja začetka loka m do premice p
+				% oz. razdalja točke T' levo in zgoraj od točke T do premice
+				\tt = 2*sin(60);
+				% Razdalja točke T' od navpične premice skozi T
+				\td = \t-2*cos(60);
+			}
+			% Definicija točke T
+			\coordinate [label={[blue, above left]:$T$}] (T) at (0,{\t});
+			% Risanje točke T
+			\fill[blue] (T) circle (2pt);
+			% Premica p
+			\draw[blue, very thick] (-2,0) -- (2,0) node[right] {$p$};
+			\pause
+			% Definicija pomožne točke A' in risanje krožnega loka k, ki se začne v A'
+			\coordinate (A') at ({-\tt},{\td});
+			\draw[gray, thin] (A') arc[start angle=210, end angle=330, radius=2] node[right] {\scriptsize $k$};
+			\pause
+			% Točka A
+			\coordinate [label=below left:{\scriptsize $A$}] (A) at ({-\t},0);
+			\draw (A) circle (1.5pt);
+			\coordinate [label=below right:{\scriptsize $B$}] (B) at ({\t},0);
+			\draw (B) circle (1.5pt);
+			\pause
+			\coordinate (T') at ({-\td},{-\tt});
+			\draw[gray, thin] (T') arc[start angle=-60, end angle=60, radius=2] node[left] {\scriptsize $m$};
+			\pause
+			\coordinate (T'') at ({\td},{-\tt});
+			\draw[gray, thin] (T'') arc[start angle=240, end angle=129, radius=2] node[right] {\scriptsize $n$};
+			\pause
+			\coordinate [label=right:{\scriptsize $C$}] (C) at (0, {-\t});
+			\draw (C) circle (1.5pt);
+			\pause
+			\draw[red, very thick] (0,-2) -- (0,2) node[right] {};
+		\end{tikzpicture}
+		% Lok je definiran s točko, v kateri se lok začne (ne središče!), z začetnim in končnim kotom ter radijem.
+		% Koti so vedno podani enako: kot 0 je v smeri x osi in se veča v nasprotni smeri urinega kazalc	
+	\end{columns}
+\end{frame}
 
 \begin{frame}{Graf funkcije s TikZ}
 	\centering
